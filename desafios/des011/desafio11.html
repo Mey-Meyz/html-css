@@ -13,25 +13,23 @@
             background-size: cover;
         }
 
-        #container {
-            background-image: url(imagens/astronauta.png);
-            background-size: 100%;
-            background-repeat: no-repeat;
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
 
-            position: absolute;
-            max-height: 200px;
-            max-width: 400px;
-            padding: 300px;
-
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+        img {
+            width: 40vw;
+            max-width: 500px;
+            min-width: 350px;
         }
     </style>
 </head>
 <body>
     <section id="container">
-
+        <img src="imagens/astronauta.png" alt="astronauta">
     </section>
 </body>
 </html>
