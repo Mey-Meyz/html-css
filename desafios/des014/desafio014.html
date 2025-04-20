@@ -19,21 +19,21 @@
         border: 1px solid black;
     }
 
-    thead {
-        background-color: rgb(82, 80, 80);
+    .grupo {
+        background-color: rgb(92, 92, 92);
         color: white;
     }
 </style>
 <body>
     <table>
         <thead>
-            <tr>
+            <tr class="grupo">
                 <th rowspan="2" scope="col">Área</th>
                 <th rowspan="2" scope="col">Disciplinas</th>
                 <th colspan="2" scope="colgroup">Notas</th>
                 <th rowspan="2" scope="col">Média</th>
             </tr>
-            <tr>
+            <tr class="grupo">
                 <th scope="col">Nota 1</th>
                 <th scope="col">Nota 2</th>
             </tr>
@@ -63,12 +63,10 @@
             <td>0.0</td>
             <td>0.0</td>
         </tr>
-        <thead>
-            <tr>
+            <tr class="grupo">
                 <th colspan="4" scope="row">Média de Exatas</th>
                 <th>0.0</th>
             </tr>
-        </thead>
         <tr>
             <th rowspan="3" scope="rowgroup">Humanas</th>
             <td>Português</td>
@@ -88,11 +86,9 @@
             <td>0.0</td>
             <td>0.0</td>
         </tr>
-        <tr>
-            <thead>
+        <tr class="grupo">
                 <th colspan="4">Média de Humanas</th>
                 <th>0.0</th>
-            </thead>
         </tr>
     </table>
 </body>
